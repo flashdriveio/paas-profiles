@@ -1,6 +1,6 @@
 {
   "name": "Qoddi",
-  "revision": "2021-11-22",
+  "revision": "2023-01-19",
   "url": "https://qoddi.com/",
   "status": "production",
   "status_since": "2020-11-01",
@@ -19,6 +19,14 @@
       "model": "free"
     }
   ],
+  "qos": {
+    "uptime": 99.9,
+    "compliance": [
+      "HIPAA",
+      "SOC 2",
+      "PCI DSS Level 1"
+    ]
+  },
   "scaling": {
     "horizontal": true,
     "vertical": true,
@@ -217,6 +225,21 @@
       "continent": "NA",
       "country": "US",
       "region": "Illinois"
+    },
+    {
+      "continent": "NA",
+      "country": "CA",
+      "region": "British Columbia"
+    },
+    {
+      "continent": "NA",
+      "country": "CA",
+      "region": "Ontario"
+    },
+    {
+      "continent": "NA",
+      "country": "US",
+      "region": "Virginia"
     },
     {
       "continent": "NA",
